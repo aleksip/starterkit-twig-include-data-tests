@@ -1,0 +1,44 @@
+<h1>pattern-partial-datafile.twig</h1>
+
+<h2>Data</h2>
+<ul>
+  <li>test_string_1: {{ test_string_1 }}</li>
+  <li>
+    <p>test_array_1:</p>
+    <ul>
+      <li>{{ test_array_1.0 }}</li>
+      <li>{{ test_array_1.1 }}</li>
+      <li>{{ test_array_1.2 }}</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>{% raw %}{% include 'molecules-visible-molecule-pattern-partial-nodatafile' %}{% endraw %}</h2>
+<div class="include molecule">
+  {% include 'molecules-visible-molecule-pattern-partial-nodatafile' %}
+</div>
+
+<h2>{% raw %}{% include 'molecules-visible-molecule-pattern-partial-datafile' %}{% endraw %}</h2>
+<div class="include molecule">
+  {% include 'molecules-visible-molecule-pattern-partial-datafile' %}
+</div>
+
+<h2>{% raw %}{% include 'molecules-hidden-molecule-pattern-partial-nodatafile' %}{% endraw %}</h2>
+<div class="include molecule">
+  {% include 'molecules-hidden-molecule-pattern-partial-nodatafile' %}
+</div>
+
+<h2>{% raw %}{% include 'molecules-hidden-molecule-pattern-partial-datafile' %}{% endraw %}</h2>
+<div class="include molecule">
+  {% include 'molecules-hidden-molecule-pattern-partial-datafile' %}
+</div>
+
+<h2>{% raw %}{% include 'molecules-noviewall-molecule-pattern-partial-nodatafile' %}{% endraw %}</h2>
+<div class="include molecule">
+  {% include 'molecules-noviewall-molecule-pattern-partial-nodatafile' %}
+</div>
+
+<h2>{% raw %}{% include 'molecules-noviewall-molecule-pattern-partial-datafile' %}{% endraw %}</h2>
+<div class="include molecule">
+  {% include 'molecules-noviewall-molecule-pattern-partial-datafile' %}
+</div>

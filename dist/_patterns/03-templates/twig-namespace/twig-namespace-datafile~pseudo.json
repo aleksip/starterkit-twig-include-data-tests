@@ -1,0 +1,7 @@
+{
+  "test_string_1": "twig-namespace-datafile~pseudo.json test data 1",
+  "test_array_1": [
+    "twig-namespace-datafile~pseudo.json array 1 test data 1",
+    "twig-namespace-datafile~pseudo.json array 1 test data 2"
+  ]
+}

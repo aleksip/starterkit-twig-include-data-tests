@@ -1,0 +1,7 @@
+{
+  "test_string_1": "noviewall-molecule-pattern-partial-datafile.json test data 1",
+  "test_array_1": [
+    "noviewall-molecule-pattern-partial-datafile.json array 1 test data 1",
+    "noviewall-molecule-pattern-partial-datafile.json array 1 test data 2"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "test_string_1": "data.json test data 1",
+  "test_string_2": "data.json test data 2",
+  "test_string_3": "data.json test data 3",
+  "test_string_4": "data.json test data 4",
+  "test_string_5": "data.json test data 5",
+  "test_string_6": "data.json test data 6",
+  "test_array_1": [
+    "data.json array 1 test data 1",
+    "data.json array 1 test data 2",
+    "data.json array 1 test data 3"
+  ],
+  "test_array_2": [
+    "data.json array 2 test data 1",
+    "data.json array 2 test data 2",
+    "data.json array 2 test data 3"
+  ],
+  "test_array_3": [
+    "data.json array 3 test data 1",
+    "data.json array 3 test data 2",
+    "data.json array 3 test data 3"
+  ]
+}

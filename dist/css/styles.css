@@ -1,0 +1,21 @@
+body {
+  font-family: monospace;
+  background-color: white;
+}
+h2 {
+  margin-top: 2em;
+}
+ul p {
+  margin: 0;
+}
+.include {
+  margin-left: 4em;
+  border: 1px solid lightgray;
+  padding: 1em;
+}
+.molecule {
+  background-color: lightgray;
+}
+.atom {
+  background-color: white;
+}

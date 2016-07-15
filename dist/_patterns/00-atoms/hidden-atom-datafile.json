@@ -1,0 +1,7 @@
+{
+  "test_string_1": "hidden-atom-datafile.json test data 1",
+  "test_array_1": [
+    "hidden-atom-datafile.json array 1 test data 1",
+    "hidden-atom-datafile.json array 1 test data 2"
+  ]
+}

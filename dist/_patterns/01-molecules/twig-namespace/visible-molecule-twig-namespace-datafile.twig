@@ -1,0 +1,24 @@
+<h1>visible-molecule-twig-namespace-datafile.twig</h1>
+
+<h2>Data:</h2>
+<ul>
+  <li>test_string_1: {{ test_string_1 }}</li>
+  <li>
+    <p>test_array_1:</p>
+    <ul>
+      <li>{{ test_array_1.0 }}</li>
+      <li>{{ test_array_1.1 }}</li>
+      <li>{{ test_array_1.2 }}</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>{% raw %}{% include '@atoms/visible-atom-nodatafile.twig' %}{% endraw %}</h2>
+<div class="include atom">
+  {% include '@atoms/visible-atom-nodatafile.twig' %}
+</div>
+
+<h2>{% raw %}{% include '@atoms/_hidden-atom-datafile.twig' %}{% endraw %}</h2>
+<div class="include atom">
+  {% include '@atoms/visible-atom-datafile.twig' %}
+</div>
